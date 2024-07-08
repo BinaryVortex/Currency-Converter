@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url('bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.converter {
+  margin-top: 20px;
+}
+
+.converter input,
+.converter select,
+.converter button {
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+#result {
+  margin-top: 20px;
+}
